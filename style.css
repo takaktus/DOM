@@ -14,9 +14,12 @@
 
 .form__element{
     width: 40%;
+    height: 30px;;
     display: flex;
     justify-content: space-between;
+    gap: 15px;
 }
+
 
 .form__textbox{
     font-size: 13px;
@@ -29,6 +32,10 @@
     font-weight: bold;
     border: none;
     padding: 10px 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .resultado{
