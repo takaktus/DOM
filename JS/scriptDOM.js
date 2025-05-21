@@ -64,6 +64,15 @@ function executarTestes() {
     //mudando a cor de fundo do formulario usando propriedade style
     let form = document.getElementsByTagName("form")[0].style.backgroundColor = "blue"; 
 
+    //usando o querySelector para pegar o primeiro elemento existente na página
+    //para id, tag ou classe
+    document.querySelector("#nomeAluno");
+    document.querySelector("p");
+    document.querySelector(".form__textbox");
+
+    //usando o querySelectorAll para pegar todos os elementos existentes na página, sempre retorna um array
+
+
 
     //alert(mensagemnota2);
     //alert(mensagemnota4);
